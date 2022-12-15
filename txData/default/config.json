@@ -1,7 +1,7 @@
 {
   "global": {
     "serverName": "Daily RP",
-    "language": "en",
+    "language": "fr",
     "menuEnabled": true,
     "menuAlignRight": false,
     "menuPageKey": "Tab"
@@ -26,9 +26,9 @@
     "statusMessage": "**IP:** `change-me:<port>`\n**Players:** <players>\n**Uptime:** <uptime>"
   },
   "fxRunner": {
-    "autostart": true,
     "serverDataPath": "/config/",
     "cfgPath": "/config/server.cfg",
-    "onesync": "on"
+    "onesync": "on",
+    "autostart": true
   }
 }
