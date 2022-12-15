@@ -1,0 +1,34 @@
+{
+  "global": {
+    "serverName": "Daily RP",
+    "language": "en",
+    "menuEnabled": true,
+    "menuAlignRight": false,
+    "menuPageKey": "Tab"
+  },
+  "logger": {},
+  "monitor": {
+    "restarterSchedule": [],
+    "resourceStartingTolerance": 120
+  },
+  "playerDatabase": {
+    "onJoinCheckBan": true,
+    "onJoinCheckWhitelist": false,
+    "whitelistRejectionMessage": "Please join http://discord.gg/example and request to be whitelisted.",
+    "banRejectionMessage": "You can join http://discord.gg/example to appeal this ban."
+  },
+  "webServer": {
+    "disableNuiSourceCheck": false
+  },
+  "discordBot": {
+    "enabled": false,
+    "prefix": "!",
+    "statusMessage": "**IP:** `change-me:<port>`\n**Players:** <players>\n**Uptime:** <uptime>"
+  },
+  "fxRunner": {
+    "autostart": true,
+    "serverDataPath": "/config/",
+    "cfgPath": "/config/server.cfg",
+    "onesync": "on"
+  }
+}
