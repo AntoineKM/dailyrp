@@ -1,3 +1,27 @@
-txData/
+# exclude txData/ folder and do not exclude txData/**/config.json
 node_modules/
 cache/
+*.bkp
+
+config/server.cfg
+
+txData/admins.json
+txData/**/data/
+txData/**/logs/
+
+### yarn ###
+# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+
+.yarn/*
+!.yarn/releases
+!.yarn/patches
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# if you are NOT using Zero-installs, then:
+# comment the following lines
+!.yarn/cache
+
+# and uncomment the following lines
+# .pnp.*
